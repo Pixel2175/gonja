@@ -1,4 +1,4 @@
-module github.com/nikolalohinski/gonja/v2
+module github.com/pixel2175/gonja/v2
 
 go 1.24.4
 
