@@ -1,6 +1,6 @@
 package pystring
 
-import "github.com/nikolalohinski/gonja/v2/builtins/methods/pyerrors"
+import "github.com/pixel2175/gonja/v2/builtins/methods/pyerrors"
 
 // Idx replicates indexing behavior in python. As such it supports negative
 // indexing and don't crash on out of bound indexes.

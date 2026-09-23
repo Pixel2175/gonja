@@ -3,7 +3,7 @@ package methods
 import (
 	"reflect"
 
-	"github.com/nikolalohinski/gonja/v2/exec"
+	"github.com/pixel2175/gonja/v2/exec"
 )
 
 var listMethods = exec.NewMethodSet[[]any](map[string]exec.Method[[]any]{

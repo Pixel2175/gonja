@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nikolalohinski/gonja/v2/tokens"
+	"github.com/pixel2175/gonja/v2/tokens"
 )
 
 type SyntaxError struct {

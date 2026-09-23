@@ -4,7 +4,7 @@ import (
 	"maps"
 	"strings"
 
-	"github.com/nikolalohinski/gonja/v2/nodes"
+	"github.com/pixel2175/gonja/v2/nodes"
 )
 
 func getBlocks(tpl *nodes.Template) map[string]*nodes.Wrapper {

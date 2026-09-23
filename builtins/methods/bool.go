@@ -1,8 +1,8 @@
 package methods
 
 import (
-	"github.com/nikolalohinski/gonja/v2/builtins/methods/pybool"
-	"github.com/nikolalohinski/gonja/v2/exec"
+	"github.com/pixel2175/gonja/v2/builtins/methods/pybool"
+	"github.com/pixel2175/gonja/v2/exec"
 )
 
 var boolMethods = exec.NewMethodSet[bool](map[string]exec.Method[bool]{

@@ -2,5 +2,5 @@
 package gonja
 
 import (
-	_ "github.com/nikolalohinski/gonja/v2/docs"
+	_ "github.com/pixel2175/gonja/v2/docs"
 )

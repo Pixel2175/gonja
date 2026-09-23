@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/nikolalohinski/gonja/v2/nodes"
-	"github.com/nikolalohinski/gonja/v2/tokens"
+	"github.com/pixel2175/gonja/v2/nodes"
+	"github.com/pixel2175/gonja/v2/tokens"
 )
 
 func (p *Parser) ParseFilter() (*nodes.FilterCall, error) {

@@ -10,10 +10,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/nikolalohinski/gonja/v2/config"
+	"github.com/pixel2175/gonja/v2/config"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/nikolalohinski/gonja/v2/logging"
+	"github.com/pixel2175/gonja/v2/logging"
 )
 
 // EOF is an arbitraty value for End Of File

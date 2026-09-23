@@ -3,9 +3,9 @@ package parser
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/nikolalohinski/gonja/v2/logging"
-	"github.com/nikolalohinski/gonja/v2/nodes"
-	"github.com/nikolalohinski/gonja/v2/tokens"
+	"github.com/pixel2175/gonja/v2/logging"
+	"github.com/pixel2175/gonja/v2/nodes"
+	"github.com/pixel2175/gonja/v2/tokens"
 )
 
 func (p *Parser) ParseTest(expr nodes.Expression) (nodes.Expression, error) {

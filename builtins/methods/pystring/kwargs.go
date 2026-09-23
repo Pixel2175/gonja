@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/nikolalohinski/gonja/v2/builtins/methods/pyerrors"
+	"github.com/pixel2175/gonja/v2/builtins/methods/pyerrors"
 )
 
 // AttributeGetter is used to resolve nested kw-args.

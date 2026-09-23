@@ -3,10 +3,10 @@ package controlStructures
 import (
 	"fmt"
 
-	"github.com/nikolalohinski/gonja/v2/exec"
-	"github.com/nikolalohinski/gonja/v2/nodes"
-	"github.com/nikolalohinski/gonja/v2/parser"
-	"github.com/nikolalohinski/gonja/v2/tokens"
+	"github.com/pixel2175/gonja/v2/exec"
+	"github.com/pixel2175/gonja/v2/nodes"
+	"github.com/pixel2175/gonja/v2/parser"
+	"github.com/pixel2175/gonja/v2/tokens"
 )
 
 type AutoescapeControlStructure struct {

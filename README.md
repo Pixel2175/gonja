@@ -11,7 +11,7 @@
 
 Install or update using `go get`:
 ```
-go get github.com/nikolalohinski/gonja/v2
+go get github.com/pixel2175/gonja/v2
 ```
 
 ### As a `terraform` provider
@@ -27,8 +27,8 @@ import (
 	"os"
 	"fmt"
 
-	"github.com/nikolalohinski/gonja/v2"
-	"github.com/nikolalohinski/gonja/v2/exec"
+	"github.com/pixel2175/gonja/v2"
+	"github.com/pixel2175/gonja/v2/exec"
 )
 
 func main() {
@@ -50,7 +50,7 @@ func main() {
 ## Documentation
 
 * For details on how the **Jinja** template language works, please refer to [the Jinja documentation](https://jinja.palletsprojects.com) ;
-* **gonja** API documentation is available on [godoc](https://godoc.org/github.com/nikolalohinski/gonja/v2) ;
+* **gonja** API documentation is available on [godoc](https://godoc.org/github.com/pixel2175/gonja/v2) ;
 * **filters**: please refer to [`docs/filters.md`](docs/filters.md) ;
 * **control structures**: please take a look at [`docs/control_structures.md`](docs/control_structures.md) ;
 * **tests**: please see [`docs/tests.md`](docs/tests.md) ;
@@ -64,7 +64,7 @@ As this project now aims to reproduce the behavior of the `python` Jinja engine 
 
 The following steps can be used as general guidelines to migrate from `v1` to `v2`:
 
-* All references to `gonja` need to be changed from `"github.com/nikolalohinski/gonja"` to `"github.com/nikolalohinski/gonja/v2"`
+* All references to `gonja` need to be changed from `"github.com/nikolalohinski/gonja"` to `"github.com/pixel2175/gonja/v2"`
 * The following top level global variables/functions have been removed/updated and need to be adjusted accordingly:
 	* `DefaultEnv` function is now called `DefaultEnvironment` and its properties have changed. See [gonja.go](./gonja.go) and [exec/environment.go](./exec/environment.go) for details
 	* `FromCache` function has been removed as caching logic was removed. If required, it can be done by implementing a custom `Loader` (see [`loaders/loader.go`](./loaders/loader.go))
